@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+input{
+    margin: 1rem;
+    padding: .5rem 1.5rem;
+
+}
+
+.container{
+    background-color: transparent;
+    padding: 5rem;
+    border: 1px solid black;
+    
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="/styles/main.css">
+
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form class="element" method="POST" action="/submit">
+            <input type="text" placeholder="enter the first name" name="student_id">
+            <input type="text" placeholder="enter the last name" name="student_name">
+            <input type="text" placeholder="enter the email" name="student_regno">
+            <input type="submit"  value="/submit" >
+        </form>
+        <div>
+            
+            <h5>data from database: <%= data %> </h5>
+        </div>
+    </div>    
+</body>
+</html>
